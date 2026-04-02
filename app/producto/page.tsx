@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Producto",
   description:
-    "Información inicial sobre el AOVE variedad Arlequín de As Besadas y la estructura prevista para su futura ficha de producto.",
+    "Información inicial sobre el AOVE variedad Arbequina de As Besadas y la estructura prevista para su futura ficha de producto.",
 });
 
 export default function ProductoPage() {
@@ -15,7 +15,7 @@ export default function ProductoPage() {
     <>
       <PageHero
         eyebrow="Producto"
-        title="Un AOVE variedad Arlequín presentado desde el origen y el cuidado."
+        title="Un AOVE variedad Arbequina presentado desde el origen y el cuidado."
         description={productContent.intro}
       />
 

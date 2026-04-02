@@ -13,9 +13,9 @@ export const navigation = [
 
 export const siteConfig = {
   brand: "As Besadas",
-  productName: "AOVE variedad Arlequín",
+  productName: "AOVE variedad Arbequina",
   description:
-    "Aceite de oliva virgen extra de variedad Arlequín, cultivado en Galicia y elaborado desde un proyecto familiar con cuidado artesanal.",
+    "Aceite de oliva virgen extra de variedad Arbequina, cultivado en Galicia y elaborado desde un proyecto familiar con cuidado artesanal.",
   locale: "es_ES",
   audience: "Galicia y España",
   futureSections: ["tienda", "fichas de producto", "gallego"],
@@ -24,7 +24,7 @@ export const siteConfig = {
 export const homeContent = {
   hero: {
     eyebrow: "Cultivado en Galicia",
-    title: "AOVE variedad Arlequín, cultivado en Galicia con mirada familiar.",
+    title: "AOVE variedad Arbequina, cultivado en Galicia con mirada familiar.",
     text:
       "As Besadas nace de una forma de trabajar serena y cercana. Un proyecto familiar que cuida el cultivo, la elaboración artesanal y el valor de hacer las cosas con tiempo.",
     primaryCta: { href: "/producto", label: "Conocer el producto" },
@@ -32,7 +32,7 @@ export const homeContent = {
   },
   highlights: [
     {
-      title: "Variedad Arlequín",
+      title: "Variedad Arbequina",
       text:
         "Un AOVE con identidad propia, presentado desde su origen y su variedad, sin artificios ni promesas innecesarias.",
     },
@@ -49,9 +49,9 @@ export const homeContent = {
   ],
   sections: [
     {
-      title: "AOVE variedad Arlequín",
+      title: "AOVE variedad Arbequina",
       text:
-        "As Besadas presenta su AOVE de variedad Arlequín desde una primera web informativa, pensada para explicar el producto con claridad y dejar una base sólida para el futuro.",
+        "As Besadas presenta su AOVE de variedad Arbequina desde una primera web informativa, pensada para explicar el producto con claridad y dejar una base sólida para el futuro.",
     },
     {
       title: "Cultivado en Galicia",
@@ -68,10 +68,10 @@ export const homeContent = {
 
 export const productContent = {
   intro:
-    "El AOVE de variedad Arlequín es el centro de As Besadas. En esta primera etapa, la página de producto reúne lo esencial: el origen gallego del cultivo, el carácter familiar del proyecto y una elaboración artesanal contada con sencillez.",
+    "El AOVE de variedad Arbequina es el centro de As Besadas. En esta primera etapa, la página de producto reúne lo esencial: el origen gallego del cultivo, el carácter familiar del proyecto y una elaboración artesanal contada con sencillez.",
   bullets: [
     "Aceite de oliva virgen extra",
-    "Variedad Arlequín",
+    "Variedad Arbequina",
     "Cultivado en Galicia",
     "Proyecto familiar y elaboración artesanal",
   ],
@@ -92,7 +92,7 @@ export const productContent = {
 export const storyContent = {
   paragraphs: [
     "As Besadas es un proyecto familiar que entiende el AOVE desde el cuidado y la proximidad. La intención no es correr, sino construir algo bien hecho, con raíz y con continuidad.",
-    "El cultivo en Galicia y la elección de la variedad Arlequín forman parte de una historia concreta, ligada al territorio y a una manera de trabajar donde importa tanto el producto como la forma de llegar a él.",
+    "El cultivo en Galicia y la elección de la variedad Arbequina forman parte de una historia concreta, ligada al territorio y a una manera de trabajar donde importa tanto el producto como la forma de llegar a él.",
     "Por eso esta primera web habla con calma. Presenta el origen, la voz y la dirección del proyecto, y deja preparada una base coherente para todo lo que venga después.",
   ],
   values: [
@@ -105,7 +105,7 @@ export const storyContent = {
 
 export const contactContent = {
   intro:
-    "Si quieres conocer mejor As Besadas o solicitar información sobre el proyecto y su AOVE variedad Arlequín, el contacto seguirá siendo directo, cercano y sin intermediarios.",
+    "Si quieres conocer mejor As Besadas o solicitar información sobre el proyecto y su AOVE variedad Arbequina, el contacto seguirá siendo directo, cercano y sin intermediarios.",
   placeholders: [
     { label: "Correo", value: "Correo disponible próximamente" },
     { label: "Teléfono", value: "Teléfono disponible próximamente" },

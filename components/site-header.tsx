@@ -10,7 +10,7 @@ export function SiteHeader() {
             {siteConfig.brand}
           </span>
           <span className="text-[0.7rem] uppercase tracking-[0.28em] text-stone-500">
-            Galicia · AOVE Arlequín
+            Galicia · AOVE Arbequina
           </span>
         </Link>
 

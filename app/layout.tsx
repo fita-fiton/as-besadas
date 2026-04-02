@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.brand} | AOVE variedad Arlequín`,
+    default: `${siteConfig.brand} | AOVE variedad Arbequina`,
     template: `%s | ${siteConfig.brand}`,
   },
   description: siteConfig.description,
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   keywords: [
     "AOVE",
     "aceite de oliva virgen extra",
-    "Arlequín",
+    "Arbequina",
     "Galicia",
     "producción artesanal",
     "proyecto familiar",

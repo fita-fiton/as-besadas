@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Inicio",
   description:
-    "Web informativa de As Besadas, proyecto familiar de AOVE variedad Arlequín cultivado en Galicia.",
+    "Web informativa de As Besadas, proyecto familiar de AOVE variedad Arbequina cultivado en Galicia.",
 });
 
 export default function Home() {
