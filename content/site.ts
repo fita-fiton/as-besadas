@@ -32,7 +32,7 @@ export const homeContent = {
   },
   highlights: [
     {
-      title: "Variedad Arbequina",
+      title: "Arbequina",
       text:
         "Un AOVE con identidad propia, presentado desde su origen y su variedad, sin artificios ni promesas innecesarias.",
     },
@@ -42,7 +42,7 @@ export const homeContent = {
         "Un proyecto llevado de cerca, donde cada decisión forma parte de una manera de trabajar más humana y más atenta.",
     },
     {
-      title: "Mirada artesanal",
+      title: "Elaboración artesanal",
       text:
         "Elaboración pausada, respeto por el producto y una relación clara entre territorio, trabajo y resultado final.",
     },
