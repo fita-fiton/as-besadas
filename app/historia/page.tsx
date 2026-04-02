@@ -26,21 +26,24 @@ export default function HistoriaPage() {
             title="La historia empieza en Galicia y se sostiene en una manera de trabajar cercana."
           />
           {storyContent.paragraphs.map((paragraph) => (
-            <p key={paragraph} className="max-w-3xl text-lg leading-9 text-stone-700">
+            <p
+              key={paragraph}
+              className="max-w-3xl text-lg leading-9 text-[var(--color-muted)]"
+            >
               {paragraph}
             </p>
           ))}
         </div>
 
-        <aside className="rounded-[2rem] border border-stone-200 bg-white p-8 shadow-[0_20px_60px_rgba(61,42,22,0.05)]">
-          <p className="text-xs uppercase tracking-[0.3em] text-stone-500">
+        <aside className="rounded-[2rem] border border-[var(--color-line)] bg-[var(--color-surface)] p-8 shadow-[0_20px_60px_rgba(55,60,45,0.05)]">
+          <p className="text-xs uppercase tracking-[0.3em] text-[var(--color-muted)]">
             Valores
           </p>
           <ul className="mt-6 space-y-4">
             {storyContent.values.map((value) => (
               <li
                 key={value}
-                className="border-b border-stone-200 pb-4 font-serif text-2xl text-stone-900 last:border-b-0 last:pb-0"
+                className="border-b border-[var(--color-line)] pb-4 font-serif text-2xl text-[var(--color-foreground)] last:border-b-0 last:pb-0"
               >
                 {value}
               </li>

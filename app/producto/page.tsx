@@ -20,15 +20,15 @@ export default function ProductoPage() {
       />
 
       <section className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-16 md:grid-cols-[0.9fr_1.1fr] md:px-10 md:py-24">
-        <div className="rounded-[2rem] border border-stone-200 bg-white p-8 shadow-[0_20px_60px_rgba(61,42,22,0.05)]">
-          <p className="text-xs uppercase tracking-[0.3em] text-stone-500">
+        <div className="rounded-[2rem] border border-[var(--color-line)] bg-[var(--color-surface)] p-8 shadow-[0_20px_60px_rgba(55,60,45,0.05)]">
+          <p className="text-xs uppercase tracking-[0.3em] text-[var(--color-muted)]">
             Identidad base
           </p>
           <ul className="mt-6 space-y-4">
             {productContent.bullets.map((bullet) => (
               <li
                 key={bullet}
-                className="rounded-[1.2rem] bg-stone-50 px-5 py-4 text-base text-stone-800"
+                className="rounded-[1.2rem] border border-[var(--color-line)] bg-[var(--color-surface)] px-5 py-4 text-base text-[var(--color-foreground)]"
               >
                 {bullet}
               </li>
@@ -47,12 +47,12 @@ export default function ProductoPage() {
             {productContent.notes.map((note) => (
               <article
                 key={note.title}
-                className="rounded-[1.8rem] border border-stone-200/90 bg-[#efe6d8] p-7"
+                className="rounded-[1.8rem] border border-[var(--color-line)] bg-[var(--color-surface)] p-7"
               >
-                <h2 className="font-serif text-3xl text-stone-950">
+                <h2 className="font-serif text-3xl text-[var(--color-foreground)]">
                   {note.title}
                 </h2>
-                <p className="mt-4 text-base leading-8 text-stone-700">
+                <p className="mt-4 text-base leading-8 text-[var(--color-muted)]">
                   {note.text}
                 </p>
               </article>

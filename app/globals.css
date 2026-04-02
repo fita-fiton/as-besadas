@@ -1,10 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7f3ed;
-  --foreground: #241b14;
-  --muted: #6c6158;
-  --line: #ded5ca;
+  --background: #f3f1eb;
+  --foreground: #22251e;
+  --muted: #60675d;
+  --line: #d0d2c7;
+  --surface: #f8f6f0;
+  --surface-muted: #ecefe5;
+  --surface-soft: #dde2d3;
+  --accent: #71795f;
+  --accent-strong: #59624b;
+  --accent-contrast: #f7f4ed;
+  --dark-surface: #2d3328;
+  --dark-surface-2: #3d4437;
+  --dark-muted: #c0c7b8;
   --font-sans-stack: "Avenir Next", "Segoe UI", sans-serif;
   --font-serif-stack: "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
     Georgia, serif;
@@ -15,6 +24,15 @@
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-line: var(--line);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-surface-soft: var(--surface-soft);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-contrast: var(--accent-contrast);
+  --color-dark-surface: var(--dark-surface);
+  --color-dark-surface-2: var(--dark-surface-2);
+  --color-dark-muted: var(--dark-muted);
   --font-sans: var(--font-sans-stack);
   --font-serif: var(--font-serif-stack);
 }
@@ -39,6 +57,6 @@ a {
 }
 
 ::selection {
-  background: rgba(211, 180, 138, 0.45);
+  background: rgba(118, 128, 96, 0.26);
   color: var(--foreground);
 }
