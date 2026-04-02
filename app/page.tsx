@@ -1,3 +1,4 @@
+import { EditorialImageFrame } from "@/components/editorial-image-frame";
 import Link from "next/link";
 import { CtaBand } from "@/components/cta-band";
 import { SectionHeading } from "@/components/section-heading";
@@ -46,6 +47,15 @@ export default function Home() {
           <div className="flex md:pt-6">
             <div className="w-full rounded-[2rem] border border-[var(--color-line)] bg-[linear-gradient(180deg,_rgba(248,246,240,0.96),_rgba(244,242,236,0.96))] p-6 shadow-[0_30px_80px_rgba(55,60,45,0.08)] md:p-8">
               <div className="space-y-6">
+                <EditorialImageFrame
+                  src="/images/hero-harvest-sunset.jpeg"
+                  alt="Aceitunas en primer plano al atardecer durante la recogida"
+                  caption="Cosecha al atardecer"
+                  aspectClassName="aspect-[5/4] md:aspect-[4/5]"
+                  imageClassName="object-cover object-[center_70%] md:object-[center_62%]"
+                  priority
+                  sizes="(max-width: 767px) 100vw, (max-width: 1279px) 52vw, 560px"
+                />
                 <div className="flex flex-col gap-4 border-b border-[var(--color-line)] pb-5 sm:flex-row sm:items-end sm:justify-between">
                   <div>
                     <p className="text-[0.7rem] uppercase tracking-[0.26em] text-[var(--color-muted)]">
@@ -95,7 +105,18 @@ export default function Home() {
           description="As Besadas empieza con una web informativa y contenida, pensada para explicar con claridad qué hay detrás del proyecto: variedad, cultivo en Galicia, trabajo familiar y elaboración artesanal."
         />
 
-        <div className="mt-10 grid gap-6 md:mt-12 md:grid-cols-3">
+        <div className="mt-10 md:mt-12">
+          <EditorialImageFrame
+            src="/images/support-golden-grove.jpg"
+            alt="Vista amplia del olivar como apoyo al origen y al paisaje del proyecto"
+            caption="Origen en Galicia"
+            aspectClassName="aspect-[16/9] md:aspect-[21/9]"
+            imageClassName="object-cover object-center"
+            sizes="(max-width: 767px) 100vw, 1120px"
+          />
+        </div>
+
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
           {homeContent.sections.map((section) => (
             <article
               key={section.title}

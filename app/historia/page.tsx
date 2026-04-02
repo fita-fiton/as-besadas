@@ -1,4 +1,5 @@
 import { CtaBand } from "@/components/cta-band";
+import { EditorialImageFrame } from "@/components/editorial-image-frame";
 import { PageHero } from "@/components/page-hero";
 import { SectionHeading } from "@/components/section-heading";
 import { storyContent } from "@/content/site";
@@ -21,6 +22,14 @@ export default function HistoriaPage() {
 
       <section className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-16 md:grid-cols-[1.15fr_0.85fr] md:px-10 md:py-24">
         <div className="space-y-6">
+          <EditorialImageFrame
+            src="/images/support-daylight-grove.jpeg"
+            alt="Paisaje diurno del olivar como apoyo visual al origen y al territorio"
+            caption="Paisaje y territorio"
+            aspectClassName="aspect-[16/10]"
+            imageClassName="object-cover object-center"
+            sizes="(max-width: 767px) 100vw, 62vw"
+          />
           <SectionHeading
             eyebrow="Origen"
             title="La historia empieza en Galicia y se sostiene en una manera de trabajar cercana."

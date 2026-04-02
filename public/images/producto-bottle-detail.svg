@@ -1,0 +1,13 @@
+<svg width="1400" height="1750" viewBox="0 0 1400 1750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1750" fill="#F3F1EB"/>
+  <rect x="58" y="58" width="1284" height="1634" rx="44" fill="#F8F6F0" stroke="#D0D2C7" stroke-width="8"/>
+  <rect x="594" y="242" width="212" height="126" rx="34" fill="#3D4437"/>
+  <rect x="546" y="356" width="308" height="840" rx="144" fill="#59624B"/>
+  <rect x="582" y="500" width="236" height="342" rx="18" fill="#F7F4ED"/>
+  <line x1="622" y1="588" x2="778" y2="588" stroke="#D0D2C7" stroke-width="8"/>
+  <line x1="622" y1="652" x2="778" y2="652" stroke="#D0D2C7" stroke-width="8"/>
+  <line x1="622" y1="716" x2="744" y2="716" stroke="#D0D2C7" stroke-width="8"/>
+  <ellipse cx="700" cy="1216" rx="258" ry="96" fill="#DDE2D3"/>
+  <text x="700" y="1442" text-anchor="middle" fill="#60675D" font-family="Georgia, serif" font-size="52" letter-spacing="9">PRODUCTO</text>
+  <text x="700" y="1518" text-anchor="middle" fill="#71795F" font-family="Arial, sans-serif" font-size="24" letter-spacing="5">Replace with bottle, label, or hand-detail photography</text>
+</svg>
