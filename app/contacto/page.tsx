@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Contacto",
   description:
-    "Página de contacto inicial de As Besadas, preparada para incorporar los datos reales del proyecto cuando estén disponibles.",
+    "Página de contacto de As Besadas para consultas sobre el proyecto, el aceite y sus formatos.",
 });
 
 export default function ContactoPage() {
@@ -14,7 +14,7 @@ export default function ContactoPage() {
     <>
       <PageHero
         eyebrow="Contacto"
-        title="Un espacio de contacto directo para conocer mejor el proyecto."
+        title="Un contacto directo para consultas sobre As Besadas y su aceite."
         description={contactContent.intro}
       />
 
@@ -41,15 +41,15 @@ export default function ContactoPage() {
         <div className="space-y-8">
           <SectionHeading
             eyebrow="Siguiente paso"
-            title="La página queda preparada para incorporar los datos definitivos cuando estén disponibles."
+            title="Un punto de contacto claro para responder con cercanía y sin intermediarios."
             description={contactContent.cta}
           />
 
           <div className="rounded-[1.8rem] border border-[var(--color-line)] bg-[var(--color-surface)] p-7">
             <p className="text-base leading-8 text-[var(--color-muted)]">
-              Mientras tanto, este espacio mantiene algo importante: una forma
-              de contacto sencilla, directa y coherente con el tono del
-              proyecto, sin añadir recursos innecesarios en esta primera etapa.
+              Si necesitas información sobre disponibilidad, formatos o el
+              proyecto en Callobre, este será el canal para hacerlo de forma
+              sencilla y directa.
             </p>
           </div>
         </div>
