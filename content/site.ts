@@ -15,7 +15,7 @@ export const siteConfig = {
   brand: "As Besadas",
   productName: "AOVE variedad Arlequín",
   description:
-    "Aceite de oliva virgen extra de origen gallego, elaborado con una mirada familiar, artesanal y cuidadosa.",
+    "Aceite de oliva virgen extra de variedad Arlequín, cultivado en Galicia y elaborado desde un proyecto familiar con cuidado artesanal.",
   locale: "es_ES",
   audience: "Galicia y España",
   futureSections: ["tienda", "fichas de producto", "gallego"],
@@ -24,93 +24,93 @@ export const siteConfig = {
 export const homeContent = {
   hero: {
     eyebrow: "Cultivado en Galicia",
-    title: "AOVE Arlequín con origen, calma y trabajo familiar.",
+    title: "AOVE variedad Arlequín, cultivado en Galicia con mirada familiar.",
     text:
-      "As Besadas nace con una idea sencilla: ofrecer un aceite de oliva virgen extra cuidado desde el campo hasta la botella, con una producción local, artesanal y honesta.",
+      "As Besadas nace de una forma de trabajar serena y cercana. Un proyecto familiar que cuida el cultivo, la elaboración artesanal y el valor de hacer las cosas con tiempo.",
     primaryCta: { href: "/producto", label: "Conocer el producto" },
-    secondaryCta: { href: "/historia", label: "Leer la historia" },
+    secondaryCta: { href: "/historia", label: "Conocer la historia" },
   },
   highlights: [
     {
       title: "Variedad Arlequín",
       text:
-        "Una propuesta singular para quienes valoran el origen, el equilibrio y el carácter propio de cada cosecha.",
+        "Un AOVE con identidad propia, presentado desde su origen y su variedad, sin artificios ni promesas innecesarias.",
     },
     {
       title: "Producción familiar",
       text:
-        "Proyecto cercano, de escala cuidada, con atención directa a cada decisión del cultivo y la elaboración.",
+        "Un proyecto llevado de cerca, donde cada decisión forma parte de una manera de trabajar más humana y más atenta.",
     },
     {
       title: "Mirada artesanal",
       text:
-        "Sin artificios ni promesas grandilocuentes: solo producto, territorio y una forma de hacer pausada.",
+        "Elaboración pausada, respeto por el producto y una relación clara entre territorio, trabajo y resultado final.",
     },
   ],
   sections: [
     {
       title: "AOVE variedad Arlequín",
       text:
-        "La primera versión de As Besadas se presenta como un aceite informativo y de origen, pensado para construir una marca sólida antes de abrir la venta online.",
+        "As Besadas presenta su AOVE de variedad Arlequín desde una primera web informativa, pensada para explicar el producto con claridad y dejar una base sólida para el futuro.",
     },
     {
       title: "Cultivado en Galicia",
       text:
-        "El proyecto se apoya en el paisaje y el ritmo gallego, con una identidad local clara y una vocación de cercanía para el público de Galicia y del resto de España.",
+        "Galicia no aparece aquí como un reclamo, sino como el lugar real del cultivo y del proyecto. Esa raíz local marca el tono, el ritmo y la identidad de la marca.",
     },
     {
       title: "Producción familiar y artesanal",
       text:
-        "La escala pequeña forma parte de la propuesta. Importa más el cuidado en el proceso que el volumen, y eso define el tono de la marca desde el inicio.",
+        "La escala contenida forma parte de su carácter. Importa el cuidado en cada paso, la cercanía al proceso y una elaboración artesanal entendida con naturalidad.",
     },
   ],
 } as const;
 
 export const productContent = {
   intro:
-    "As Besadas presenta un AOVE de variedad Arlequín orientado a una primera etapa informativa. La intención es explicar el origen del proyecto, su forma de trabajar y la identidad del producto con claridad.",
+    "El AOVE de variedad Arlequín es el centro de As Besadas. En esta primera etapa, la página de producto reúne lo esencial: el origen gallego del cultivo, el carácter familiar del proyecto y una elaboración artesanal contada con sencillez.",
   bullets: [
     "Aceite de oliva virgen extra",
     "Variedad Arlequín",
-    "Proyecto cultivado en Galicia",
-    "Producción familiar y artesanal",
+    "Cultivado en Galicia",
+    "Proyecto familiar y elaboración artesanal",
   ],
   notes: [
     {
-      title: "Qué comunicar ahora",
+      title: "Lo importante ahora",
       text:
-        "Origen, variedad, enfoque artesanal y cercanía. En esta fase evitamos añadir datos técnicos o comerciales todavía no confirmados.",
+        "Hablar con claridad del producto, de su variedad y de su origen. En esta fase, As Besadas prefiere contar solo lo que ya forma parte real del proyecto.",
     },
     {
-      title: "Qué se podrá ampliar después",
+      title: "Lo que podrá crecer después",
       text:
-        "Ficha completa, formatos disponibles, notas de cata, campaña, imágenes de producto y futura compra online.",
+        "Más adelante podrán incorporarse formatos, imágenes, información de campaña y la futura parte de tienda, sin cambiar la base de esta presentación.",
     },
   ],
 } as const;
 
 export const storyContent = {
   paragraphs: [
-    "As Besadas es un proyecto familiar que quiere hacer las cosas con tiempo, sin atajos y con una relación clara entre producto y territorio.",
-    "La elección de una identidad sobria responde a la misma lógica del cultivo: menos ruido, más atención al detalle, al origen y a la calidad percibida desde la honestidad.",
-    "Esta primera web no busca contarlo todo. Busca abrir una puerta, situar el proyecto y dejar preparada una base sólida para crecer hacia catálogo, tienda y nuevos contenidos.",
+    "As Besadas es un proyecto familiar que entiende el AOVE desde el cuidado y la proximidad. La intención no es correr, sino construir algo bien hecho, con raíz y con continuidad.",
+    "El cultivo en Galicia y la elección de la variedad Arlequín forman parte de una historia concreta, ligada al territorio y a una manera de trabajar donde importa tanto el producto como la forma de llegar a él.",
+    "Por eso esta primera web habla con calma. Presenta el origen, la voz y la dirección del proyecto, y deja preparada una base coherente para todo lo que venga después.",
   ],
   values: [
-    "Origen local",
+    "Raíz gallega",
     "Trabajo familiar",
-    "Producción cuidada",
-    "Identidad premium sin exceso",
+    "Elaboración artesanal",
+    "Sobriedad y cuidado",
   ],
 } as const;
 
 export const contactContent = {
   intro:
-    "Si quieres conocer mejor el proyecto, solicitar información o preparar futuras colaboraciones, As Besadas está abierta al contacto directo.",
+    "Si quieres conocer mejor As Besadas o solicitar información sobre el proyecto y su AOVE variedad Arlequín, el contacto seguirá siendo directo, cercano y sin intermediarios.",
   placeholders: [
-    { label: "Correo", value: "[correo pendiente]" },
-    { label: "Teléfono", value: "[teléfono pendiente]" },
+    { label: "Correo", value: "Correo disponible próximamente" },
+    { label: "Teléfono", value: "Teléfono disponible próximamente" },
     { label: "Ubicación de referencia", value: "Galicia, España" },
   ],
   cta:
-    "Cuando confirmes los datos reales de contacto, esta página ya está preparada para sustituir los placeholders sin rehacer la estructura.",
+    "En cuanto se incorporen los datos definitivos, esta página quedará lista para ofrecer un punto de contacto completo, manteniendo el mismo tono sobrio y cercano del resto del sitio.",
 } as const;

@@ -84,8 +84,8 @@ export default function Home() {
       <section className="mx-auto w-full max-w-6xl px-6 py-14 md:px-10 md:py-20">
         <SectionHeading
           eyebrow="Esencia"
-          title="Una presentación sobria para un producto con identidad local."
-          description="La web se construye para explicar bien el proyecto desde el principio: qué es As Besadas, qué producto presenta y qué tipo de relación quiere tener con su territorio y con sus futuros clientes."
+          title="Una primera presentación para contar el producto desde su origen."
+          description="As Besadas empieza con una web informativa y contenida, pensada para explicar con claridad qué hay detrás del proyecto: variedad, cultivo en Galicia, trabajo familiar y elaboración artesanal."
         />
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
@@ -106,8 +106,8 @@ export default function Home() {
       </section>
 
       <CtaBand
-        title="Preparado para presentar el producto y abrir futuras conversaciones."
-        text="La primera versión prioriza claridad, origen y tono de marca. La estructura queda lista para ampliar catálogo, idiomas y venta online más adelante."
+        title="Una base cuidada para presentar el proyecto con claridad."
+        text="Esta primera versión pone el foco en lo esencial: producto, origen y manera de hacer. A partir de aquí, la web podrá crecer sin perder el tono sobrio y cercano con el que empieza."
         primaryHref="/contacto"
         primaryLabel="Ir a contacto"
         secondaryHref="/producto"

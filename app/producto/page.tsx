@@ -15,7 +15,7 @@ export default function ProductoPage() {
     <>
       <PageHero
         eyebrow="Producto"
-        title="AOVE variedad Arlequín con una presentación clara y honesta."
+        title="Un AOVE variedad Arlequín presentado desde el origen y el cuidado."
         description={productContent.intro}
       />
 
@@ -39,8 +39,8 @@ export default function ProductoPage() {
         <div className="space-y-8">
           <SectionHeading
             eyebrow="Primera ficha"
-            title="Lo importante en esta fase es explicar bien el proyecto."
-            description="La página de producto queda preparada para crecer sin rehacer la base. Ahora mismo muestra solo la información confirmada y deja claro dónde se incorporarán los siguientes detalles."
+            title="Una primera ficha para situar el producto con naturalidad."
+            description="Esta página recoge la información esencial sin sobrecargar el relato. Lo importante ahora es dejar claro qué es As Besadas, qué producto presenta y desde qué lugar se hace."
           />
 
           <div className="grid gap-6">
@@ -62,8 +62,8 @@ export default function ProductoPage() {
       </section>
 
       <CtaBand
-        title="Cuando dispongas de más datos, la ficha puede ampliarse sin cambiar la arquitectura."
-        text="La estructura actual permite añadir formatos, imágenes, notas de cata y futura compra online dentro del mismo proyecto."
+        title="La ficha está preparada para crecer cuando el proyecto lo pida."
+        text="Cuando llegue el momento, podrán añadirse nuevos detalles de producto y una futura parte comercial sin rehacer la base de esta presentación."
         primaryHref="/contacto"
         primaryLabel="Solicitar información"
         secondaryHref="/historia"

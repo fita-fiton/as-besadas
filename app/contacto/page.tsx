@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Contacto",
   description:
-    "Página de contacto inicial de As Besadas, preparada para sustituir placeholders por los datos reales cuando estén disponibles.",
+    "Página de contacto inicial de As Besadas, preparada para incorporar los datos reales del proyecto cuando estén disponibles.",
 });
 
 export default function ContactoPage() {
@@ -14,7 +14,7 @@ export default function ContactoPage() {
     <>
       <PageHero
         eyebrow="Contacto"
-        title="Un primer punto de contacto para consultas, presentaciones y futuras colaboraciones."
+        title="Un espacio de contacto directo para conocer mejor el proyecto."
         description={contactContent.intro}
       />
 
@@ -38,15 +38,15 @@ export default function ContactoPage() {
         <div className="space-y-8">
           <SectionHeading
             eyebrow="Siguiente paso"
-            title="La estructura ya está lista para incorporar contacto real o un formulario en el futuro."
+            title="La página queda preparada para incorporar los datos definitivos cuando estén disponibles."
             description={contactContent.cta}
           />
 
           <div className="rounded-[1.8rem] border border-stone-200 bg-white p-7">
             <p className="text-base leading-8 text-stone-700">
-              Mientras tanto, esta página cumple una función clara: reservar el
-              espacio de contacto dentro de la arquitectura del proyecto y
-              mantener el tono de marca alineado con el resto del sitio.
+              Mientras tanto, este espacio mantiene algo importante: una forma
+              de contacto sencilla, directa y coherente con el tono del
+              proyecto, sin añadir recursos innecesarios en esta primera etapa.
             </p>
           </div>
         </div>

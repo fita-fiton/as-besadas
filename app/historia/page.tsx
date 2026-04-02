@@ -15,15 +15,15 @@ export default function HistoriaPage() {
     <>
       <PageHero
         eyebrow="Historia"
-        title="Un proyecto familiar que quiere crecer sin perder su escala ni su origen."
-        description="As Besadas se presenta desde la cercanía, el territorio y una forma de trabajar que prioriza el cuidado frente a la prisa."
+        title="Una historia familiar ligada al cultivo, al territorio y al tiempo de hacer bien las cosas."
+        description="As Besadas se cuenta desde Galicia y desde una forma de trabajar donde importa la cercanía al producto, la elaboración artesanal y el valor de avanzar sin prisa."
       />
 
       <section className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-16 md:grid-cols-[1.15fr_0.85fr] md:px-10 md:py-24">
         <div className="space-y-6">
           <SectionHeading
             eyebrow="Origen"
-            title="La historia empieza en Galicia y se cuenta con una voz sobria."
+            title="La historia empieza en Galicia y se sostiene en una manera de trabajar cercana."
           />
           {storyContent.paragraphs.map((paragraph) => (
             <p key={paragraph} className="max-w-3xl text-lg leading-9 text-stone-700">
@@ -50,8 +50,8 @@ export default function HistoriaPage() {
       </section>
 
       <CtaBand
-        title="La historia de marca ya tiene una base coherente para seguir creciendo."
-        text="Cuando quieras ampliar esta página, se pueden incorporar fotografías del proceso, hitos familiares o más contexto sobre la elaboración."
+        title="La historia queda abierta para seguir contándose con la misma calma."
+        text="Más adelante podrán incorporarse imágenes, momentos del proceso o más contexto familiar, manteniendo una voz sobria y fiel al origen del proyecto."
         primaryHref="/contacto"
         primaryLabel="Hablar con As Besadas"
         secondaryHref="/"
