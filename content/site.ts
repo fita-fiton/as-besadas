@@ -8,13 +8,16 @@ export const navigation = [
   { href: "/", label: "Inicio" },
   { href: "/producto", label: "Producto" },
   { href: "/historia", label: "Historia" },
+  { href: "/donde-comprar", label: "Dónde comprar" },
   { href: "/contacto", label: "Contacto" },
 ] as const;
 
 export const siteConfig = {
   brand: "As Besadas",
-  productName: "AOVE variedad Arbequina",
+  productName: "AOVE Arbequina de microedición atlántica",
   description:
+    "Aceite de oliva virgen extra de variedad Arbequina, cultivado en Callobre, A Estrada, y elaborado desde un proyecto familiar de producción limitada.",
+  footerDescription:
     "Aceite de oliva virgen extra de variedad Arbequina, cultivado en Callobre, A Estrada, y elaborado desde un proyecto familiar de producción limitada.",
   locale: "es_ES",
   audience: "Galicia y España",
@@ -24,17 +27,17 @@ export const siteConfig = {
 export const homeContent = {
   hero: {
     eyebrow: "Callobre, A Estrada",
-    title: "AOVE Arbequina de producción limitada, cultivado en Galicia por un proyecto familiar.",
+    title: "AOVE Arbequina de microedición atlántica, cultivado en Galicia por un proyecto familiar.",
     text:
       "As Besadas nace en Callobre a partir de una idea sencilla: recuperar el cultivo del olivo en tierra familiar y dar continuidad a una finca trabajada de cerca desde hace alrededor de diez años. El resultado es un AOVE de variedad Arbequina, de cosecha temprana y escala pequeña, cuidado en cada paso.",
-    primaryCta: { href: "/producto", label: "Conocer el producto" },
+    primaryCta: { href: "/producto", label: "Conocer el aceite" },
     secondaryCta: { href: "/historia", label: "Ver la historia" },
   },
   highlights: [
     {
-      title: "Arbequina",
+      title: "Microedición atlántica",
       text:
-        "Trabajamos con variedad Arbequina porque encaja con la escala del proyecto y con una forma de entender el aceite desde el origen, con cuidado y sin exceso.",
+        "Trabajamos con variedad Arbequina en una escala pequeña, ligada al clima y al ritmo de Callobre. No se trata de producir mucho, sino de cuidar bien cada campaña.",
     },
     {
       title: "Proyecto familiar",
@@ -51,12 +54,12 @@ export const homeContent = {
     {
       title: "Un aceite situado",
       text:
-        "As Besadas presenta un AOVE Arbequina que se entiende desde su lugar y su escala. No se trata de producir mucho, sino de hacer bien una producción corta y reconocible.",
+        "As Besadas presenta un AOVE Arbequina que se entiende desde su lugar y su escala. La microedición atlántica no funciona aquí como reclamo, sino como una forma concreta de nombrar una producción corta, local y reconocible.",
     },
     {
       title: "Origen en Callobre",
       text:
-        "El proyecto está en Callobre, en A Estrada. Galicia no funciona aquí como recurso de imagen, sino como el lugar real del cultivo, del trabajo y de la historia familiar.",
+        "El proyecto está en Callobre, A Estrada. Galicia no funciona aquí como recurso de imagen, sino como el lugar real del cultivo, del trabajo y de la historia familiar.",
     },
     {
       title: "Del olivar a la almazara",
@@ -100,7 +103,7 @@ export const storyContent = {
   values: [
     "Origen en Callobre",
     "Escala familiar",
-    "Producción limitada",
+    "Microedición atlántica",
     "Trabajo cuidado",
   ],
 } as const;
@@ -115,4 +118,34 @@ export const contactContent = {
   ],
   cta:
     "Mientras se incorporan los datos definitivos, esta página deja preparado un punto de contacto claro para consultas sobre el aceite, la producción y los formatos.",
+} as const;
+
+export const whereToBuyContent = {
+  intro:
+    "As Besadas está disponible en un número reducido de tiendas locales seleccionadas. Son puntos de venta cercanos al proyecto, pensados para mantener una distribución clara y cuidada.",
+  locations: [
+    {
+      city: "A Estrada",
+      stores: [
+        {
+          name: "ARTESA",
+          address: "Rua Irida, 19, 36680, A Estrada (Pontevedra)",
+        },
+        {
+          name: "AMIFRUT",
+          address: "Porta do Sol, 27, bajo, 36680 A Estrada, Pontevedra",
+        },
+      ],
+    },
+    {
+      city: "Santiago de Compostela",
+      stores: [
+        {
+          name: "FAME NEGHRA",
+          address:
+            "Rúa da Acibechería, 17, 15704 Santiago de Compostela, A Coruña",
+        },
+      ],
+    },
+  ],
 } as const;

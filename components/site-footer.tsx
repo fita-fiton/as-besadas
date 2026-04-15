@@ -10,7 +10,7 @@ export function SiteFooter() {
             {siteConfig.brand}
           </p>
           <p className="max-w-md text-sm leading-7 text-[color:rgba(192,199,184,0.86)]">
-            {siteConfig.description}
+            {siteConfig.footerDescription}
           </p>
         </div>
 

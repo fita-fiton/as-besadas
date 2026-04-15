@@ -18,6 +18,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: "/donde-comprar",
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: "/contacto",
       changeFrequency: "monthly",
       priority: 0.7,

@@ -22,7 +22,7 @@ export function EditorialImageFrame({
   return (
     <figure className="space-y-3">
       <div
-        className={`relative overflow-hidden rounded-[1.8rem] border border-[var(--color-line)] bg-[var(--color-surface)] shadow-[0_20px_50px_rgba(55,60,45,0.05)] ${aspectClassName}`}
+        className={`relative overflow-hidden rounded-lg border border-[var(--color-line)] bg-[var(--color-surface)] shadow-[0_20px_50px_rgba(55,60,45,0.05)] ${aspectClassName}`}
       >
         <Image
           src={src}

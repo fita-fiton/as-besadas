@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.brand} | AOVE variedad Arbequina`,
+    default: `${siteConfig.brand} | AOVE Arbequina de Galicia`,
     template: `%s | ${siteConfig.brand}`,
   },
   description: siteConfig.description,
@@ -16,8 +16,9 @@ export const metadata: Metadata = {
     "aceite de oliva virgen extra",
     "Arbequina",
     "Galicia",
-    "producción artesanal",
+    "microedición",
     "proyecto familiar",
+    "producción artesanal",
   ],
   category: "food",
 };

@@ -1,0 +1,298 @@
+# Texto de la web (mejorado)
+
+Inventario editorial de la nueva web de **As Besadas**, pensado para elevar la identidad de la marca y transmitir la singularidad de un aceite atlántico de microedición. Incluye textos visibles, navegación, llamadas a la acción, metadatos y textos alternativos de imágenes.
+
+## Sitio
+
+### Marca
+
+As Besadas
+
+### Producto
+
+AOVE de variedad **Arbequina**, cultivado en Galicia atlántica.
+
+### Descripción general
+
+Aceite de oliva virgen extra nacido en **Callobre, A Estrada**. Una microedición familiar de olivos arbequinos que desafían el clima atlántico húmedo y ofrecen un sabor fresco y auténtico. La cosecha se realiza a mano y la molturación se lleva a cabo en menos de 24 horas, garantizando un producto excepcional.
+
+### Navegación principal
+
+- Inicio
+- Producto
+- Historia
+- Contacto
+
+### Cabecera
+
+**As Besadas**
+
+**Galicia atlántica · Microedición Arbequina**
+
+## Inicio
+
+### Metadatos
+
+**Título:** Inicio
+
+**Descripción:** Web oficial de As Besadas, microedición atlántica de aceite de oliva virgen extra 100 % Arbequina elaborada en Callobre por una familia que cuida cada detalle.
+
+### Hero
+
+**Un aceite que no debería existir… y sin embargo está aquí.**
+
+**Microedición atlántica elaborada por una familia en Callobre, A Estrada.**
+
+En las laderas verdes de Callobre, donde la lluvia y la bruma atlántica marcan el ritmo de las estaciones, nuestros olivos arbequinos desafían la lógica. As Besadas nace de la voluntad de una familia por recuperar el olivo en su tierra y demostrar que la excelencia también brota lejos del sol mediterráneohttps://ourensividad.com/en/why-did-olive-trees-almost-disappear-in-galicia/#:~:text=Given%20the%20lack%20of%20previous,tree%20in%20Galicia%20is%20toponymy. Cada botella proviene de una cosecha limitada y numerada.
+
+**Botones CTA:**
+
+- **Descubre el aceite**
+- **Conoce nuestra historia**
+
+### Imagen hero
+
+**Texto alternativo:** Aceitunas arbequinas en un olivar gallego al atardecer.
+
+**Pie de imagen:** Cosecha al atardecer en Callobre.
+
+### Tarjeta destacada
+
+**Primera microedición**
+
+**Aceite atlántico 100 % Arbequina**
+
+Producción limitada que captura la esencia de un olivo poco común en Galicia.
+
+### Destacados
+
+**01 · Microedición atlántica**
+
+Nuestros olivos crecen en un clima atlántico insólito para el olivar. Esto confiere al aceite frescura y equilibrio. No producimos en masa, sino lo que la tierra y la familia pueden cuidar personalmente.
+
+**02 · Familia y cercanía**
+
+As Besadas se lleva desde cerca. Somos quienes plantamos, cuidamos y recolectamos las aceitunas. Cada decisión se toma sobre la propia finca y cada botella es el reflejo de nuestro trabajo.
+
+**03 · Cuidado extremo**
+
+Recogemos las aceitunas a mano en su punto óptimo y las llevamos a molturar en menos de 24 horas en una almazara de Quiroga. El proceso es ágil y respetuoso, conservando todas las propiedades del fruto.
+
+### Sección esencia
+
+**Esencia**
+
+Esta primera web presenta nuestro aceite desde su origen. As Besadas arranca con una comunicación sobria y honesta para explicar qué hay detrás del proyecto: una microedición atlántica, una finca familiar y un proceso artesanal que huye de los clichés.
+
+### Imagen de apoyo
+
+**Texto alternativo:** Vista panorámica de nuestro olivar en Callobre, rodeado de paisaje atlántico.
+
+**Pie de imagen:** Origen en Galicia.
+
+### Bloques de contenido
+
+**Un aceite situado**
+
+As Besadas ofrece un AOVE Arbequina que se entiende desde su lugar y su escala. No se trata de producir mucho, sino de hacer bien una cosecha corta y reconocible. Nuestro aceite es el resultado de un territorio singular y de una atención obsesiva al detalle.
+
+**Origen en Callobre**
+
+El proyecto está en Callobre, A Estrada. Galicia no funciona aquí como recurso de imagen, sino como el lugar real del cultivo, del trabajo y de la historia familiar. Somos conscientes de que el olivo casi desapareció en Galiciahttps://ourensividad.com/en/why-did-olive-trees-almost-disappear-in-galicia/#:~:text=Since%20the%20s,corn%20or%20potatoes%2C%E2%80%9D%20says%20Fern%C3%A1ndez y queremos formar parte de su renacer.
+
+**Del olivar a la almazara**
+
+El trabajo empieza en el cuidado del olivar propio, sigue con la recogida manual y termina con la molienda en Quiroga dentro de las 24 horas posteriores a la cosecha. Este ritmo rápido y respetuoso conserva la frescura y la estructura del aceite.
+
+### CTA
+
+**Contacto**
+
+Esta primera versión pone el foco en lo esencial: producto, origen y manera de hacer. Si quieres reservar una de nuestras botellas o conocer más, ponte en contacto con nosotros.
+
+**Botones CTA:**
+
+- **Ir a contacto**
+- **Ver producto**
+
+## Producto
+
+### Metadatos
+
+**Título:** Producto
+
+**Descripción:** Información detallada sobre As Besadas: aceite virgen extra de microedición atlántica elaborado con aceituna Arbequina, cosecha temprana y producción limitada en Callobre, A Estrada.
+
+### Hero
+
+**Producto**
+
+**El sabor de un olivo atlántico.**
+
+Nuestro aceite es un AOVE Arbequina de cosecha temprana y microedición. Se cultiva en Callobre y se lleva a almazara en menos de 24 horas para preservar todas sus propiedades. Cada botella está numerada y refleja la calidad de una finca cuidada por manos familiares.
+
+### Identidad base
+
+**Identidad base**
+
+- Aceite de oliva virgen extra de microedición
+- 100 % variedad Arbequina
+- Cosecha temprana en otoño
+- Cultivado en Callobre, A Estrada
+- Recolección manual y molienda en menos de 24 horas
+- Formatos disponibles: 250 ml y 500 ml
+
+### Primera ficha
+
+**Ficha esencial**
+
+Lo esencial del producto contado con claridad. As Besadas presenta aquí los elementos que definen su aceite: variedad Arbequina, cosecha temprana, trabajo directo sobre el olivar y una producción pequeña ligada a Callobre. Este AOVE nace en un clima atlántico singular y se elabora con respeto total por el fruto.
+
+**Qué se presenta aquí**
+
+Esta página reúne lo fundamental del aceite tal y como hoy se produce: variedad Arbequina, origen gallego, producción pequeña y un proceso cuidado desde el olivar hasta la almazara. Incluye notas de cata (aroma a hierba fresca, fruta madura, almendra verde y un final ligeramente especiado) y sugerencias de maridaje con pescados blancos, mariscos y pan artesanal.
+
+**Formatos y siguiente paso**
+
+As Besadas trabaja en botellas de 250 ml y 500 ml. Más adelante podrán incorporarse datos de cada campaña y la venta directa. Mientras tanto, este espacio se reserva para las nuevas microediciones que están por venir.
+
+### CTA
+
+**Contacto**
+
+Si quieres reservar tu botella de nuestra próxima cosecha, escríbenos. Esta ficha está pensada para informar bien y permitir crecer sin perder claridad ni sobriedad.
+
+**Botones CTA:**
+
+- **Solicitar información**
+- **Conocer la historia**
+
+## Historia
+
+### Metadatos
+
+**Título:** Historia
+
+**Descripción:** La historia de As Besadas: un proyecto familiar que revive el cultivo del olivo en una Galicia atlántica donde casi desaparecióhttps://ourensividad.com/en/why-did-olive-trees-almost-disappear-in-galicia/#:~:text=Since%20the%20s,corn%20or%20potatoes%2C%E2%80%9D%20says%20Fern%C3%A1ndez.
+
+### Hero
+
+**Historia**
+
+**El renacer del olivo en Galicia atlántica.**
+
+As Besadas empieza en Callobre, A Estrada, a partir del trabajo sobre una finca familiar y de la voluntad de dar continuidad al cultivo del olivo desde una escala real y cuidada. Nuestro proyecto demuestra que la tradición puede renacer con una mirada moderna y responsable.
+
+### Imagen de apoyo
+
+**Texto alternativo:** Paisaje diurno del olivar con niebla atlántica.
+
+**Pie de imagen:** Paisaje y territorio.
+
+### Origen
+
+**Origen**
+
+La historia de As Besadas se entiende desde el lugar, la tierra y la escala del proyecto. Durante siglos el olivo fue marginal en Galicia y llegó a desaparecerhttps://ourensividad.com/en/why-did-olive-trees-almost-disappear-in-galicia/#:~:text=Since%20the%20s,corn%20or%20potatoes%2C%E2%80%9D%20says%20Fern%C3%A1ndez. Hace algo más de diez años decidimos recuperar su cultivo en una tierra familiar en Callobre.
+
+Empezamos a pequeña escala, plantando Arbequina por su capacidad de adaptarse a nuestro clima y su perfil delicado. Desde entonces, cuidamos el olivar día a día y controlamos personalmente cada parte del proceso, sin pretender un relato más grande de lo que realmente es. La escala familiar nos permite seguir la trazabilidad de cada oliva y mantener la autenticidad como valor central.
+
+### Valores
+
+**Valores**
+
+- **Origen en Callobre**: nuestras raíces están en esta parroquia de A Estrada.
+- **Microedición atlántica**: producimos en pequeña escala, con olivos que crecen bajo nieblas y lluvias atlánticas.
+- **Cuidado extremo**: recolección manual, molturación rápida, proceso artesanal.
+- **Autenticidad y transparencia**: contamos la verdad de nuestro proyecto y huimos del postureo.
+
+### CTA
+
+**Contacto**
+
+La historia continúa en cada campaña. Si quieres saber más o vivir la experiencia de la recolección con nosotros, ponte en contacto.
+
+**Botones CTA:**
+
+- **Hablar con As Besadas**
+- **Volver al inicio**
+
+## Contacto
+
+### Metadatos
+
+**Título:** Contacto
+
+**Descripción:** Página de contacto de As Besadas para consultas sobre la microedición atlántica de Arbequina, reservas de botella y visitas a la finca.
+
+### Hero
+
+**Contacto**
+
+**Un canal directo con quienes cultivan tu aceite.**
+
+Si deseas consultar disponibilidad, reservar una botella o conocer mejor el proyecto, te atendemos directamente. Nos gusta mantener una relación cercana con quienes aprecian nuestro trabajo.
+
+### Datos
+
+**Datos**
+
+**Correo**
+
+Disponible próximamente
+
+**Teléfono**
+
+Disponible próximamente
+
+**Ubicación**
+
+Callobre, A Estrada · Galicia
+
+### Siguiente paso
+
+**Un punto de contacto claro y personal.**
+
+Mientras incorporamos los datos definitivos, esta página deja preparado un punto de contacto para consultas sobre nuestra microedición, las próximas campañas y visitas a la finca. Escríbenos para formar parte de esta historia atlántica.
+
+## Footer
+
+**As Besadas**
+
+Aceite de oliva virgen extra de variedad Arbequina, cultivado en Callobre, A Estrada, y elaborado como microedición familiar en un clima atlántico singular.
+
+**Navegación**
+
+- Inicio
+- Producto
+- Historia
+- Contacto
+
+**Preparados para crecer**
+
+Idioma activo: español. Estructura prevista para gl y futura tienda online.
+
+## Metadatos globales
+
+**Título por defecto:** As Besadas | Microedición atlántica de Arbequina
+
+**Plantilla de título:** %s | As Besadas
+
+**Descripción:** Microedición familiar de aceite de oliva virgen extra Arbequina, cultivado en Callobre (Galicia atlántica) y elaborado con cariño y cuidado.
+
+**Nombre de aplicación:** As Besadas
+
+**Palabras clave:**
+
+- AOVE
+- aceite de oliva virgen extra
+- Arbequina
+- Galicia atlántica
+- microedición
+- proyecto familiar
+- producción artesanal
+
+**Categoría:** food
+
+**Locale Open Graph:** es_ES
+

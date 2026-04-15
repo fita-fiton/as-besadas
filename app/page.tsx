@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Inicio",
   description:
-    "Web informativa de As Besadas, proyecto familiar de AOVE variedad Arbequina cultivado en Galicia.",
+    "Web informativa de As Besadas, microedición atlántica de AOVE Arbequina cultivado en Callobre, A Estrada.",
 });
 
 export default function Home() {
@@ -49,8 +49,8 @@ export default function Home() {
               <div className="space-y-6">
                 <EditorialImageFrame
                   src="/images/hero-harvest-sunset.jpeg"
-                  alt="Aceitunas en primer plano al atardecer durante la recogida"
-                  caption="Cosecha al atardecer"
+                  alt="Aceitunas arbequinas en un olivar gallego al atardecer."
+                  caption="Cosecha al atardecer en Callobre."
                   aspectClassName="aspect-[5/4] md:aspect-[4/5]"
                   imageClassName="object-cover object-[center_70%] md:object-[center_62%]"
                   priority
@@ -59,14 +59,14 @@ export default function Home() {
                 <div className="flex flex-col gap-4 border-b border-[var(--color-line)] pb-5 sm:flex-row sm:items-end sm:justify-between">
                   <div>
                     <p className="text-[0.7rem] uppercase tracking-[0.26em] text-[var(--color-muted)]">
-                      Primera edición
+                      Microedición atlántica
                     </p>
                     <p className="mt-2 max-w-lg font-serif text-[1.65rem] leading-[1.18] text-[var(--color-foreground)] md:text-[2rem]">
                       {siteConfig.productName}
                     </p>
                   </div>
                   <span className="w-fit rounded-full border border-[var(--color-line)] bg-[var(--color-surface)] px-3 py-1 text-[0.68rem] uppercase tracking-[0.22em] text-[var(--color-muted)]">
-                    Informacional
+                    Producción limitada
                   </span>
                 </div>
 
@@ -101,14 +101,14 @@ export default function Home() {
       <section className="mx-auto w-full max-w-6xl px-6 py-16 md:px-10 md:py-18">
         <SectionHeading
           eyebrow="Esencia"
-          title="Una primera presentación para contar el producto desde su origen."
-          description="As Besadas empieza con una web informativa y contenida, pensada para explicar con claridad qué hay detrás del proyecto: variedad, cultivo en Galicia, trabajo familiar y elaboración artesanal."
+          title="Una primera presentación para contar el aceite desde su origen."
+          description="As Besadas empieza con una web informativa y contenida, pensada para explicar con claridad qué hay detrás del proyecto: variedad Arbequina, cultivo en Galicia, trabajo familiar y elaboración artesanal."
         />
 
         <div className="mt-10 md:mt-12">
           <EditorialImageFrame
             src="/images/support-golden-grove.jpg"
-            alt="Vista amplia del olivar como apoyo al origen y al paisaje del proyecto"
+            alt="Vista panorámica de nuestro olivar en Callobre, rodeado de paisaje atlántico."
             caption="Origen en Galicia"
             aspectClassName="aspect-[16/9] md:aspect-[21/9]"
             imageClassName="object-cover object-center"

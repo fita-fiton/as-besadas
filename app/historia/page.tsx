@@ -16,7 +16,7 @@ export default function HistoriaPage() {
     <>
       <PageHero
         eyebrow="Historia"
-        title="Un proyecto familiar nacido para recuperar el olivo en una tierra propia de Galicia."
+        title="Un proyecto familiar ligado al renacer del olivo en Galicia."
         description="As Besadas empieza en Callobre, A Estrada, a partir del trabajo sobre una finca familiar y de la voluntad de dar continuidad al cultivo del olivo desde una escala real y cuidada."
       />
 
