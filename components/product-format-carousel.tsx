@@ -8,14 +8,14 @@ const formats = [
     id: "250",
     label: "250 ml",
     caption: "Botella 250 ml",
-    src: "/images/product-bottle-250ml.jpg",
+    src: "/images/product-bottle-250ml-v2.png",
     alt: "Botella de 250 ml de aceite de oliva virgen extra As Besadas",
   },
   {
     id: "500",
     label: "500 ml",
     caption: "Botella 500 ml",
-    src: "/images/product-bottle-500ml.jpg",
+    src: "/images/product-bottle-500ml-v2.png",
     alt: "Botella de 500 ml de aceite de oliva virgen extra As Besadas",
   },
 ] as const;
