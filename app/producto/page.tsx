@@ -1,5 +1,6 @@
 import { CtaBand } from "@/components/cta-band";
 import { PageHero } from "@/components/page-hero";
+import { ProductFormatCarousel } from "@/components/product-format-carousel";
 import { SectionHeading } from "@/components/section-heading";
 import { productContent } from "@/content/site";
 import { buildMetadata } from "@/lib/metadata";
@@ -22,13 +23,25 @@ export default function ProductoPage() {
       <section className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-16 md:grid-cols-[0.9fr_1.1fr] md:px-10 md:py-24">
         <div className="rounded-[2rem] border border-[var(--color-line)] bg-[var(--color-surface)] p-8 shadow-[0_20px_60px_rgba(55,60,45,0.05)]">
           <p className="text-xs uppercase tracking-[0.3em] text-[var(--color-muted)]">
+            Formatos disponibles
+          </p>
+          <p className="mt-4 max-w-md text-[0.98rem] leading-8 text-[var(--color-muted)]">
+            As Besadas se presenta en botellas de 250 ml y 500 ml, pensadas
+            para una producción pequeña y limitada.
+          </p>
+
+          <div className="mt-6">
+            <ProductFormatCarousel />
+          </div>
+
+          <p className="mt-8 text-xs uppercase tracking-[0.3em] text-[var(--color-muted)]">
             Identidad base
           </p>
-          <ul className="mt-6 space-y-4">
+          <ul className="mt-5 space-y-3">
             {productContent.bullets.map((bullet) => (
               <li
                 key={bullet}
-                className="rounded-[1.2rem] border border-[var(--color-line)] bg-[var(--color-surface)] px-5 py-4 text-base text-[var(--color-foreground)]"
+                className="rounded-[1.2rem] border border-[var(--color-line)] bg-[rgba(248,246,240,0.7)] px-5 py-4 text-base text-[var(--color-foreground)]"
               >
                 {bullet}
               </li>
