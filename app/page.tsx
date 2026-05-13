@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Inicio",
   description:
-    "Web informativa de As Besadas, microedición atlántica de AOVE Arbequina cultivado en Callobre, A Estrada.",
+    "As Besadas es un proyecto familiar de AOVE atlántico Arbequina en Callobre, A Estrada, con producción limitada y raíces en dos olivos centenarios.",
 });
 
 export default function Home() {
@@ -101,15 +101,15 @@ export default function Home() {
       <section className="mx-auto w-full max-w-6xl px-6 py-16 md:px-10 md:py-18">
         <SectionHeading
           eyebrow="Esencia"
-          title="Una primera presentación para contar el aceite desde su origen."
-          description="As Besadas empieza con una web informativa y contenida, pensada para explicar con claridad qué hay detrás del proyecto: variedad Arbequina, cultivo en Galicia, trabajo familiar y elaboración artesanal."
+          title="Una presentación clara del aceite, su origen y su manera de hacerse."
+          description="As Besadas se presenta desde Callobre, A Estrada, con una plantación pequeña, cosecha manual, molturación en frío y una voluntad explícita de contribuir a la recuperación del olivar gallego."
         />
 
         <div className="mt-10 md:mt-12">
           <EditorialImageFrame
             src="/images/support-golden-grove.jpg"
             alt="Vista panorámica de nuestro olivar en Callobre, rodeado de paisaje atlántico."
-            caption="Origen en Galicia"
+            caption="Callobre, A Estrada"
             aspectClassName="aspect-[16/9] md:aspect-[21/9]"
             imageClassName="object-cover object-center"
             sizes="(max-width: 767px) 100vw, 1120px"
@@ -134,8 +134,8 @@ export default function Home() {
       </section>
 
       <CtaBand
-        title="Una base cuidada para presentar el proyecto con claridad."
-        text="Esta primera versión pone el foco en lo esencial: producto, origen y manera de hacer. A partir de aquí, la web podrá crecer sin perder el tono sobrio y cercano con el que empieza."
+        title="Una base sobria para contar un proyecto familiar de escala limitada."
+        text="El foco está en lo esencial: olivos centenarios, Arbequina, trabajo manual, producción corta y recuperación del aceite en Galicia. A partir de aquí, la web podrá crecer sin alterar ese tono."
         primaryHref="/contacto"
         primaryLabel="Ir a contacto"
         secondaryHref="/producto"

@@ -14,11 +14,11 @@ export const navigation = [
 
 export const siteConfig = {
   brand: "As Besadas",
-  productName: "AOVE Arbequina de microedición atlántica",
+  productName: "AOVE atlántico Arbequina",
   description:
-    "Aceite de oliva virgen extra de variedad Arbequina, cultivado en Callobre, A Estrada, y elaborado desde un proyecto familiar de producción limitada.",
+    "As Besadas es un proyecto familiar de AOVE atlántico Arbequina en Callobre, A Estrada, con producción limitada, olivos centenarios y vocación de recuperar el olivar gallego.",
   footerDescription:
-    "Aceite de oliva virgen extra de variedad Arbequina, cultivado en Callobre, A Estrada, y elaborado desde un proyecto familiar de producción limitada.",
+    "Proyecto familiar de AOVE atlántico Arbequina en Callobre, A Estrada, con producción limitada y raíces en dos olivos centenarios.",
   locale: "es_ES",
   audience: "Galicia y España",
   futureSections: ["tienda", "fichas de producto", "gallego"],
@@ -26,98 +26,110 @@ export const siteConfig = {
 
 export const homeContent = {
   hero: {
-    eyebrow: "Callobre, A Estrada",
-    title: "AOVE Arbequina de microedición atlántica, cultivado en Galicia por un proyecto familiar.",
+    eyebrow: "Callobre · A Estrada",
+    title: "AOVE atlántico con raíces centenarias",
     text:
-      "As Besadas nace en Callobre a partir de una idea sencilla: recuperar el cultivo del olivo en tierra familiar y dar continuidad a una finca trabajada de cerca desde hace alrededor de diez años. El resultado es un AOVE de variedad Arbequina, de cosecha temprana y escala pequeña, cuidado en cada paso.",
+      "A la sombra de dos olivos centenarios que siguen en pie en Callobre, A Estrada, nace As Besadas: un proyecto familiar para recuperar la producción de aceite en Galicia. Trabajamos una plantación pequeña y cuidada, con una producción limitada. Preferimos calidad a cantidad y un contacto directo con las personas que valoran un aceite honesto, cercano y de proximidad.",
     primaryCta: { href: "/producto", label: "Conocer el aceite" },
     secondaryCta: { href: "/historia", label: "Ver la historia" },
   },
   highlights: [
     {
-      title: "Microedición atlántica",
-      text:
-        "Trabajamos con variedad Arbequina en una escala pequeña, ligada al clima y al ritmo de Callobre. No se trata de producir mucho, sino de cuidar bien cada campaña.",
-    },
-    {
       title: "Proyecto familiar",
       text:
-        "As Besadas se lleva desde cerca, con decisiones tomadas sobre la propia finca y una producción limitada que permite prestar atención real al cultivo y a la recogida.",
+        "Gestionamos personalmente cada parcela. Las decisiones se toman desde la propia finca, con atención al suelo, a los árboles y al paisaje.",
     },
     {
-      title: "Proceso cuidado",
+      title: "Microedición atlántica",
       text:
-        "Las aceitunas se recogen a mano y se molturan en menos de 24 horas en una almazara de Quiroga. El proceso busca ser claro, ágil y respetuoso con el fruto.",
+        "Nuestro AOVE nace en Callobre, en un entorno húmedo y templado que imprime carácter a la Arbequina. La recolección temprana y la molturación en frío ayudan a conseguir un aceite equilibrado y afrutado.",
+    },
+    {
+      title: "Raíces y futuro",
+      text:
+        "Conservamos los olivos centenarios que inspiraron el proyecto y planeamos incorporar, en pequeñas parcelas, algunas de las variedades autóctonas que el CSIC está recuperando y multiplicando.",
     },
   ],
   sections: [
     {
-      title: "Un aceite situado",
+      title: "Raíces centenarias",
       text:
-        "As Besadas presenta un AOVE Arbequina que se entiende desde su lugar y su escala. La microedición atlántica no funciona aquí como reclamo, sino como una forma concreta de nombrar una producción corta, local y reconocible.",
+        "As Besadas nace junto a dos olivos centenarios de Callobre que siguen marcando el carácter del proyecto. Son el punto de partida de una nueva campaña de aceite ligada a la memoria del lugar.",
     },
     {
       title: "Origen en Callobre",
       text:
-        "El proyecto está en Callobre, A Estrada. Galicia no funciona aquí como recurso de imagen, sino como el lugar real del cultivo, del trabajo y de la historia familiar.",
+        "Callobre, A Estrada, no es un recurso narrativo. Es el lugar real del cultivo, del trabajo diario y de una finca familiar que quiere contribuir a la recuperación del olivar gallego.",
     },
     {
-      title: "Del olivar a la almazara",
+      title: "Del árbol al aceite",
       text:
-        "El trabajo empieza en el cuidado del olivar propio, sigue con recogida manual y termina con la molienda en Quiroga dentro de las 24 horas posteriores a la cosecha.",
+        "La cosecha se recoge a mano en octubre, cuando la aceituna aún está verde, y se lleva a molturación en frío antes de 24 horas para preservar el perfil natural del fruto.",
     },
   ],
 } as const;
 
 export const productContent = {
   intro:
-    "El aceite de As Besadas es un AOVE de variedad Arbequina, de cosecha temprana y producción limitada. Se cultiva en Callobre, se recoge a mano en campaña y se lleva a almazara en Quiroga en menos de 24 horas, para trabajar el fruto con agilidad y cuidado.",
+    "Nuestro aceite se elabora exclusivamente con aceitunas Arbequina cultivadas en Callobre, A Estrada. La Arbequina, adaptada al clima atlántico, ofrece un perfil suave y afrutado.",
   bullets: [
-    "Aceite de oliva virgen extra",
-    "Variedad Arbequina",
-    "Cosecha temprana",
-    "Cultivado en Callobre, A Estrada",
-    "Recogida manual y molienda en menos de 24 horas",
-    "Formatos de 250 ml y 500 ml",
+    "Variedad: Arbequina 100 %.",
+    "Origen: Callobre, A Estrada, Galicia.",
+    "Cosecha: manual y temprana, en octubre.",
+    "Molturación: en frío, antes de 24 horas.",
+    "Formato: botellas de 250 ml y 500 ml.",
   ],
   notes: [
     {
-      title: "Qué se presenta aquí",
+      title: "Elaboración",
       text:
-        "Esta página reúne lo esencial del aceite tal y como hoy se produce: variedad Arbequina, origen gallego, producción pequeña y un proceso cuidado desde el olivar hasta la almazara.",
+        "Las aceitunas se recogen a mano a principios de otoño, cuando aún están verdes, y se trasladan a una almazara para su molturación en frío. Este procedimiento mecánico permite preservar los aromas y las cualidades naturales del fruto.",
     },
     {
-      title: "Formatos y siguiente paso",
+      title: "Producción limitada",
       text:
-        "As Besadas trabaja en botellas de 250 ml y 500 ml. Más adelante podrán incorporarse datos de campaña y venta directa, manteniendo esta misma base sobria y clara.",
+        "El resultado es un aceite equilibrado, de producción limitada y ligado a su lugar de origen. Este AOVE de cercanía no es un producto masivo. Cada campaña ofrece una cantidad limitada de botellas. Para consultar disponibilidad o reservar, puedes ponerte en contacto con nosotros.",
     },
   ],
 } as const;
 
 export const storyContent = {
   paragraphs: [
-    "As Besadas es un proyecto familiar que empezó hace alrededor de diez años con una intención concreta: recuperar el cultivo del olivo en Galicia y dar uso a una tierra familiar en Callobre, A Estrada.",
-    "Desde entonces, el trabajo se ha construido a pequeña escala, con olivar propio, atención directa sobre la finca y una producción limitada que permite seguir cada parte del proceso sin separarla de su origen.",
-    "La elección de Arbequina responde a esa misma forma de trabajar. Importa que el proyecto sea viable, cercano y coherente con el lugar en el que está, sin convertirlo en un relato más grande de lo que realmente es.",
+    "La historia de As Besadas comienza en una finca familiar de Callobre, donde sobreviven dos olivos centenarios. Antiguamente eran más, pero las talas y el abandono de la olivicultura los redujeron a dos supervivientes. En 2012 decidimos acompañarlos con una plantación de Arbequina.",
+    "Hoy sabemos, gracias a las investigaciones del CSIC y de la Fundación Juana de Vega, que Galicia cuenta con al menos 20 variedades autóctonas de olivo. En aquel momento, sin embargo, esa información todavía no estaba disponible para pequeños proyectos como el nuestro.",
+    "As Besadas formó parte del plan CERNES, una iniciativa pionera para introducir el cultivo del olivo en Galicia. La realidad obligó a realizar numerosos ajustes: rediseñamos marcos de plantación, mejoramos el drenaje y adaptamos la poda para que los árboles prosperasen.",
+    "Aunque muchas de las plantaciones de CERNES desaparecieron, As Besadas se mantuvo. Hoy somos una marca de aceite gallego nacida en A Estrada, con olivar propio y con un AOVE elaborado a partir de aceituna cultivada en nuestra finca.",
   ],
   values: [
-    "Origen en Callobre",
-    "Escala familiar",
-    "Microedición atlántica",
-    "Trabajo cuidado",
+    {
+      title: "Origen en Callobre",
+      text: "No buscamos un eslogan: Galicia y A Estrada son, literalmente, nuestro lugar de cultivo.",
+    },
+    {
+      title: "Escala familiar",
+      text: "La finca la trabajan las mismas personas que la sueñan. No hay intermediarios ni grandes inversiones externas.",
+    },
+    {
+      title: "Cuidado y coherencia",
+      text: "Preferimos avanzar despacio, respetando el ritmo del árbol y de la tierra.",
+    },
+    {
+      title: "Innovación y tradición",
+      text: "Formamos parte del movimiento de recuperación del olivar gallego. Seguimos atentos a la investigación de variedades autóctonas y mantenemos el compromiso de conservar nuestros olivos centenarios.",
+    },
   ],
 } as const;
 
 export const contactContent = {
   intro:
-    "Si quieres consultar disponibilidad, formatos o cualquier aspecto del proyecto, el contacto con As Besadas se plantea de forma directa y sencilla, igual que el resto de la marca.",
+    "Si quieres saber más sobre As Besadas, consultar la disponibilidad de la cosecha o conversar sobre olivos autóctonos y proyectos en Galicia, estaremos encantados de hablar contigo.",
   placeholders: [
-    { label: "Correo", value: "Disponible próximamente" },
-    { label: "Teléfono", value: "Disponible próximamente" },
+    { label: "Correo", value: "Bajo solicitud" },
+    { label: "Teléfono", value: "Bajo solicitud" },
     { label: "Ubicación", value: "Callobre, A Estrada · Galicia" },
   ],
   cta:
-    "Mientras se incorporan los datos definitivos, esta página deja preparado un punto de contacto claro para consultas sobre el aceite, la producción y los formatos.",
+    "La transparencia y la cercanía forman parte de nuestra manera de trabajar, así que respondemos personalmente a cada consulta. En esta versión inicial, los datos de contacto se proporcionarán bajo solicitud para cumplir con la normativa de protección de datos y evitar usos indebidos.",
 } as const;
 
 export const whereToBuyContent = {

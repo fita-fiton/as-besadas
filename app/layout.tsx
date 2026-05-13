@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.brand} | AOVE Arbequina de Galicia`,
+    default: `${siteConfig.brand} | AOVE atlántico de Callobre, A Estrada`,
     template: `%s | ${siteConfig.brand}`,
   },
   description: siteConfig.description,
@@ -14,11 +14,14 @@ export const metadata: Metadata = {
   keywords: [
     "AOVE",
     "aceite de oliva virgen extra",
+    "AOVE atlántico",
     "Arbequina",
-    "Galicia",
-    "microedición",
+    "Callobre",
+    "A Estrada",
+    "olivos centenarios",
     "proyecto familiar",
-    "producción artesanal",
+    "producción limitada",
+    "recuperación del olivar gallego",
   ],
   category: "food",
 };

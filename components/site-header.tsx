@@ -10,7 +10,7 @@ export function SiteHeader() {
             {siteConfig.brand}
           </span>
           <span className="text-[0.66rem] uppercase tracking-[0.24em] text-[var(--color-muted)]">
-            Galicia · Microedición Arbequina
+            Callobre · A Estrada
           </span>
         </Link>
 

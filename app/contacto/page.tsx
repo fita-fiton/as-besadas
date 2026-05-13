@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Contacto",
   description:
-    "Página de contacto de As Besadas para consultas sobre el proyecto, el aceite y sus formatos.",
+    "Contacto de As Besadas para consultas sobre disponibilidad de cosecha, AOVE Arbequina en Callobre, A Estrada, y recuperación del olivar gallego.",
 });
 
 export default function ContactoPage() {
@@ -14,7 +14,7 @@ export default function ContactoPage() {
     <>
       <PageHero
         eyebrow="Contacto"
-        title="Un contacto directo para consultas sobre As Besadas y su aceite."
+        title="Hablemos de aceite y de olivos"
         description={contactContent.intro}
       />
 
@@ -41,14 +41,15 @@ export default function ContactoPage() {
         <div className="space-y-8">
           <SectionHeading
             eyebrow="Siguiente paso"
-            title="Un punto de contacto claro para responder con cercanía y sin intermediarios."
+            title="Un punto de contacto directo para responder personalmente a cada consulta."
             description={contactContent.cta}
           />
 
           <div className="rounded-[1.8rem] border border-[var(--color-line)] bg-[var(--color-surface)] p-7">
             <p className="text-base leading-8 text-[var(--color-muted)]">
-              Si necesitas información sobre disponibilidad, formatos o el
-              proyecto en Callobre, este será el canal para hacerlo de forma
+              Si necesitas información sobre la disponibilidad de la cosecha,
+              el proyecto en Callobre o las variedades de olivo que se están
+              recuperando en Galicia, este será el canal para hacerlo de forma
               sencilla y directa.
             </p>
           </div>

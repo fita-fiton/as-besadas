@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Producto",
   description:
-    "Información sobre el AOVE Arbequina de As Besadas: origen en Callobre, cosecha temprana, producción limitada y formatos disponibles.",
+    "Aceite de oliva virgen extra Arbequina de As Besadas, cultivado en Callobre, A Estrada, con cosecha manual en octubre, molturación en frío y producción limitada.",
 });
 
 export default function ProductoPage() {
@@ -15,7 +15,7 @@ export default function ProductoPage() {
     <>
       <PageHero
         eyebrow="Producto"
-        title="Un AOVE Arbequina de producción limitada, trabajado desde el olivar hasta la almazara."
+        title="Aceite de oliva virgen extra Arbequina"
         description={productContent.intro}
       />
 
@@ -38,9 +38,9 @@ export default function ProductoPage() {
 
         <div className="space-y-8">
           <SectionHeading
-            eyebrow="Primera ficha"
-            title="Lo esencial del producto, contado con claridad."
-            description="As Besadas presenta aquí lo que hoy define su aceite: variedad Arbequina, cosecha temprana, trabajo directo sobre el olivar y una producción pequeña ligada a Callobre."
+            eyebrow="El aceite"
+            title="Lo esencial del producto, contado desde el origen y el proceso."
+            description="As Besadas presenta un AOVE Arbequina cultivado en Callobre, A Estrada, con cosecha temprana en octubre, recogida manual y molturación en frío antes de 24 horas."
           />
 
           <div className="grid gap-6">
@@ -62,8 +62,8 @@ export default function ProductoPage() {
       </section>
 
       <CtaBand
-        title="Una ficha pensada para informar bien antes de crecer."
-        text="Cuando el proyecto incorpore más datos de campaña o venta, esta base permitirá ampliarlos sin perder claridad ni sobriedad."
+        title="Una producción corta que se ofrece con información clara."
+        text="Cada campaña ofrece una cantidad limitada de botellas. Si quieres consultar disponibilidad o reservar, el siguiente paso es hablar directamente con nosotros."
         primaryHref="/contacto"
         primaryLabel="Solicitar información"
         secondaryHref="/historia"

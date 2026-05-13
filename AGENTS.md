@@ -5,6 +5,7 @@
 As Besadas es una marca de AOVE centrada en la variedad Arbequina.
 El proyecto está cultivado en Galicia y se presenta desde una producción familiar, artesanal y local.
 La versión actual de la web es informativa.
+El sitio ya incluye una página de “Dónde comprar” con puntos de venta físicos seleccionados.
 La arquitectura debe dejar preparado el terreno para una futura evolución hacia e-commerce, sin convertir todavía el sitio en una tienda.
 
 ## Brand Principles
@@ -32,6 +33,7 @@ La arquitectura debe dejar preparado el terreno para una futura evolución hacia
 - Mantener los componentes con aire y respiración.
 - Pensar mobile-first, aunque la composición desktop siga siendo importante.
 - La navegación debe ser clara, simple y fácil de escanear.
+- Los listados de puntos de venta deben sentirse curados y sobrios, no como un directorio genérico.
 
 ## Technical Constraints
 
@@ -50,6 +52,9 @@ La arquitectura debe dejar preparado el terreno para una futura evolución hacia
 - El copy debe sonar natural, local y creíble.
 - Evitar lenguaje de placeholder genérico cuando se pueda redactar algo mejor.
 - No inventar certificaciones, premios, reseñas ni claims técnicos no confirmados.
+- Mantener el equilibrio entre tono editorial y contenido verificable.
+- Se puede usar “microedición atlántica” cuando aporte identidad, pero sin sobreactuar el relato.
+- Evitar frases dramáticas o demasiado literarias si debilitan la credibilidad.
 
 ## File Structure Awareness
 
@@ -57,6 +62,7 @@ La arquitectura debe dejar preparado el terreno para una futura evolución hacia
 - `components/`: piezas reutilizables de interfaz.
 - `content/`: contenido local del sitio y textos centralizados.
 - `lib/`: utilidades compartidas, como helpers de metadata.
+- `docs/`: documentos auxiliares de trabajo editorial o inventario de textos cuando existan.
 
 ## Working Style For Codex
 
@@ -73,11 +79,16 @@ La arquitectura debe dejar preparado el terreno para una futura evolución hacia
 
 - La feature card del hero usa layout vertical apilado, no tres columnas estrechas.
 - La variedad correcta de aceituna es Arbequina; no usar Arlequín ni variantes incorrectas.
-- El tono del copy ya fue refinado para ser menos genérico y más enraizado en Galicia.
+- El tono del copy ya fue refinado para ser menos genérico y más enraizado en Galicia, pero sin caer en storytelling excesivo.
+- La navegación principal incluye `Dónde comprar`.
+- La página `Dónde comprar` recoge solo puntos de venta físicos y no debe derivar en una experiencia de tienda.
+- El hero de inicio puede usar “microedición atlántica”, pero el resto del sitio debe conservar un tono factual y contenido.
+- La página de producto debe seguir siendo la más factual del sitio; contacto debe mantenerse simple y directo.
 
 ## Open Areas For Future Work
 
 - Añadir datos reales de contacto.
 - Incorporar fotografía real del producto y del entorno.
+- Ampliar o actualizar los puntos de venta físicos cuando haya información confirmada.
 - Añadir versión en gallego.
 - Preparar la evolución hacia e-commerce cuando corresponda.
