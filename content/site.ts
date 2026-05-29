@@ -27,7 +27,7 @@ export const siteConfig = {
 export const homeContent = {
   hero: {
     eyebrow: "Callobre · A Estrada",
-    title: "AOVE atlántico con raíces centenarias",
+    title: "AOVE familiar con raíces centenarias",
     text:
       "A la sombra de dos olivos centenarios que siguen en pie en Callobre, A Estrada, nace As Besadas: un proyecto familiar para recuperar la producción de aceite en Galicia. Trabajamos una plantación pequeña y cuidada, con una producción limitada. Preferimos calidad a cantidad y un contacto directo con las personas que valoran un aceite honesto, cercano y de proximidad.",
     primaryCta: { href: "/producto", label: "Conocer el aceite" },
