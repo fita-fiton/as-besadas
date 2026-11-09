@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { site, type Locale } from "@/content/site";
@@ -14,6 +15,7 @@ export function SiteShell({ locale, children }: { locale: Locale; children: Reac
           <SiteFooter locale={locale} />
         </div>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} />
+        <Analytics />
       </body>
     </html>
   );
