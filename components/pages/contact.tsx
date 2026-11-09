@@ -1,0 +1,11 @@
+import { copy, mailto, pagePaths, site, type Locale } from "@/content/site";
+import { Action, PageIntro, Section, SectionTitle } from "./shared";
+
+export function ContactPage({ locale }: { locale: Locale }) {
+  const t = copy[locale]; const p = pagePaths[locale];
+  return <>
+    <Section className="border-b border-[var(--color-line)] bg-[var(--color-surface)]"><PageIntro eyebrow={t.contact.eyebrow} title={t.contact.title} intro={t.contact.intro} /><a href={mailto()} className="text-link mt-7 inline-block break-all text-lg">{site.email}</a></Section>
+    <Section><div className="grid gap-9 md:grid-cols-2"><div><SectionTitle title={t.contact.orderTitle} text={t.contact.orderText} /><div className="action-row mt-6"><Action href={mailto()}>{t.ui.emailOrder}</Action></div></div><div className="md:border-l md:border-[var(--color-line)] md:pl-10"><SectionTitle title={t.contact.storesTitle} text={t.contact.storesText} /><div className="action-row mt-6"><Action href={p.stores} secondary>{t.ui.buy}</Action></div></div></div></Section>
+    <Section className="border-t border-[var(--color-line)] bg-[var(--color-surface)]"><div className="grid gap-8 md:grid-cols-[0.9fr_1.1fr] md:gap-12"><div><SectionTitle title={t.contact.tradeTitle} text={t.contact.tradeText} /><div className="action-row mt-6"><Action href={mailto(t.contact.tradeSubject)}>{t.ui.email}</Action></div></div><div className="rounded-xl border border-[var(--color-line)] bg-[var(--color-background)] p-5 sm:p-7"><h3 className="font-serif text-2xl">{t.contact.previewTitle}</h3><p className="mt-3 text-sm leading-6 text-[var(--color-muted)]">{t.contact.previewText}</p><form className="mt-6" aria-label={t.contact.previewTitle}><fieldset disabled className="grid gap-4"><div className="grid gap-4 sm:grid-cols-2">{t.contact.fields.slice(0, 4).map((label, index) => <label key={label} className="grid gap-1.5 text-sm font-medium">{label}<input disabled type={index === 3 ? "email" : "text"} name={["business", "locality", "contact", "email"][index]} className="input-preview" /></label>)}</div><label className="grid gap-1.5 text-sm font-medium">{t.contact.fields[4]}<textarea disabled name="message" rows={4} className="input-preview" /></label><button disabled type="submit" className="button button-primary w-fit">{t.contact.send}</button></fieldset></form></div></div></Section>
+  </>;
+}
